@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding-top: 90px;
+    margin: 0px;
+    font-family: "Poppins";
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #001736;
+    align-items: center;
+    top: 0;
+}
+section.logo{
+    margin-left: 10px;
+    width: 8%;
+}
+.header{
+    justify-content: end;
+    flex-grow: 1;
+    display: flex;
+    
+}
+a.button{
+    margin-right: 3vw;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+
+a.button:hover{
+    color: #79d7fd;
+    font-weight: 600;
+    text-shadow: #ffff 5px 5px 1px;
+    
+
+}
+.footer{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #001736;
+    justify-content: center;
+}
+
+img.background{
+  width: 100%; 
+  object-fit: cover; 
+  object-position: bottom;
+
+}
+
+div.sinopsis{
+    display: flex;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2018227190142659281/0248631844AB9C36F659D5B0A1CAD2113E67AB56/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+div.sinopsis_content{
+    margin-left: 50vw;
+    margin-right: 15vw;
+    color: white;
+
+}
+p.title{
+    font-size: 4vw;
+    font-weight: 600;
+
+}
+p.para{
+    font-size: 1.5vw;
+}
+
+div.blank{
+    height: 8vw;
+}
+div.protagonista{
+    display: flex;
+    justify-content: center;
+}
+div.prot-box{
+    flex-wrap: wrap;
+    display: flex;
+    height: 40vw;
+    width: 90vw;
+    margin: 2vw;
+    background-color: #00183e;
+    box-shadow: #ffc54a 20px -20px;
+    justify-content: space-evenly;
+ 
+
+}
+img.prot-img{
+    flex-grow: -1;
+    max-width: 100%
+
+}
+p.prot-para{
+    margin-left: 60px;
+    width: 40%;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    font-size: 1.7vw;
+}
+p.prot-title{
+    width: 100%;
+    margin-top: 2.7%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 3.7vw;
+    font-weight: 500;
+    color: white;
+    text-shadow: #79d7fd 3px 3px;
+}
+
+h3{
+    font-size: 2vw;
+}
+div.plats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    background-color: #00183e;
+    border: none;
+    width: 40%;
+    padding: 2%;
+    margin: 1.5%;
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    box-shadow: #ffc54a 2px 2px;
+    transition: 0.5ms;
+}
+
+button:hover{
+    background-color: #00183e;
+    border: none;
+    width: 40%;
+    padding: 2.5%;
+    margin: 1.5%;
+    color: white;
+    font-size: 1vw;
+    box-shadow: #79d7fd 3px 3px;
+}
+
+div.sinopsis2{
+    display: flex;
+    background-image: url(https://images2.alphacoders.com/134/1348285.png);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+div.sinopsis_content2{
+    margin-left: 10vw;
+    margin-right: 50vw;
+    color: white;
+
+}
+
+div.sinopsis3{
+    display: flex;
+    background-image: url(https://images2.alphacoders.com/135/1350158.jpeg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+div.sinopsis_content3{
+    margin-left: 60vw;
+    margin-right: 10vw;
+    color: white;
+
+}
+
+div.prot-box2{
+    flex-wrap: wrap;
+    display: flex;
+    height: 40vw;
+    width: 30vw;
+    margin: 3vw;
+    background-color: #00183e;
+    box-shadow: #ffc54a 20px -20px;
+    justify-content: space-evenly;
+
+}
+
+p.prot-para2{
+    width: 40%;
+    flex-grow: 1;
+    text-align: justify;
+    color: white;
+    margin: 5%;
+    font-size: 1.3vw;
+}
